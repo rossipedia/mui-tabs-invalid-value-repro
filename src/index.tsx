@@ -55,6 +55,9 @@ function Layout() {
         parent Suspense boundary is rendering the fallback and the ref now
         points to a non-existent DOM node and has no client rect. (See
         https://github.com/mui/material-ui/blob/2093d62046a1fd1342d0e5e6ef7f156faf778b52/packages/mui-material/src/Tabs/Tabs.js#L361-L362)
+        
+        Uncomment the following suspense boundary to handle the error (and also
+        gives a bit nicer UX imo).
         */}
 
         {/* <Suspense
